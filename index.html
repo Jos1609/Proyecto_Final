@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Final</title>
+  <style>
+    .body {
+      background-color: rgb(37, 220, 20);
+      text-align: center;
+    }
+    .body__SUB{
+      color:white;
+      font: sans-serif;
+    }
+    .body__img{
+      
+      width: 50%;
+      border-radius: 50%;
+    }
+  </style>
+
+</head>
+
+<body class="body">
+    <h1 class="body__SUB">LOS PERRITOS SON ÚNICOS</h1>
+
+      <img
+        src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg"
+        alt="Perrito" class="body__img"/>
+        <h2>Su amor es infinito puro e incondicional,
+            él es un eterno cachorro que solo piensa en amarnos. Únete a esta campaña y adopta un perrito</h2>
+    <button id = "yes">SIGUIENTE</button>
+  
+
+  <script>
+    const btnsi = document.getElementById('yes');
+
+    const somos = () =>{
+      location.href = 'https://jos1609.github.io/parte4/'
+    }
+    btnsi.addEventListener('click',somos);
+
+  </script>
+</body>
+
+</html>
